@@ -1,0 +1,11 @@
+store_id,store_name,county,town,format,store_positioning,opening_date,floor_area_sqm
+S01,Kilimani Supermarket,Nairobi,Kilimani,Supermarket,Upmarket,01-Jun-2017,2300
+S02,Eastleigh Supermarket,Nairobi,Eastleigh,Supermarket,Value,10-Oct-2018,2200
+S03,Embakasi Hypermarket,Nairobi,Embakasi,Hypermarket,Value,15-Mar-2019,3900
+S04,Karen Express,Nairobi,Karen,Express,Upmarket,20-May-2021,700
+S05,Ruiru Supermarket,Kiambu,Ruiru,Supermarket,Mid-market,01-Feb-2020,2000
+S06,Kikuyu Express,Kiambu,Kikuyu,Express,Mid-market,12-Sep-2022,650
+S07,Thika Supermarket,Kiambu,Thika,Supermarket,Value,01-Jul-2019,2000
+S08,Athi River Supermarket,Machakos,Athi River,Supermarket,Value,05-Nov-2021,2000
+S09,Ongata Rongai Supermarket,Kajiado,Ongata Rongai,Supermarket,Mid-market,18-Mar-2023,1900
+S10,Naivasha Express,Nakuru,Naivasha,Express,Mid-market,03-Mar-2025,650

@@ -1,0 +1,172 @@
+product_id,product_name,category,tier,list_price_kes,unit_cost_kes
+SKU0001,Maize Flour 2kg,Food Staples,Economy,129,114.56
+SKU0002,Maize Flour 2kg,Food Staples,Standard,149,131.41
+SKU0003,Maize Flour 2kg,Food Staples,Premium,189,163.53
+SKU0004,Pishori Rice 2kg,Food Staples,Economy,309,262.06
+SKU0005,Pishori Rice 2kg,Food Staples,Standard,359,320.83
+SKU0006,Pishori Rice 2kg,Food Staples,Premium,469,405.61
+SKU0007,Wheat Flour 2kg,Food Staples,Economy,169,148.94
+SKU0008,Wheat Flour 2kg,Food Staples,Standard,199,180.29
+SKU0009,Wheat Flour 2kg,Food Staples,Premium,259,218.69
+SKU0010,Sugar 1kg,Food Staples,Standard,199,169.43
+SKU0011,Cooking Oil 1L,Food Staples,Economy,269,236.59
+SKU0012,Cooking Oil 1L,Food Staples,Standard,309,272.65
+SKU0013,Cooking Oil 1L,Food Staples,Premium,399,331.02
+SKU0014,Salt 500g,Food Staples,Standard,39,34.73
+SKU0015,Salt 500g,Food Staples,Premium,49,42.88
+SKU0016,Loose Tea Leaves 250g,Food Staples,Economy,109,94.78
+SKU0017,Loose Tea Leaves 250g,Food Staples,Standard,129,115.76
+SKU0018,Loose Tea Leaves 250g,Food Staples,Premium,169,154.4
+SKU0019,Sliced White Bread 400g,Food Staples,Standard,69,59.01
+SKU0020,Sliced White Bread 400g,Food Staples,Premium,89,80.93
+SKU0021,Maize Flour 1kg,Food Staples,Standard,79,66.23
+SKU0022,Cooking Oil 3L,Food Staples,Economy,749,643.73
+SKU0023,Cooking Oil 3L,Food Staples,Standard,879,775.68
+SKU0024,Cooking Oil 3L,Food Staples,Premium,1149,1012.13
+SKU0025,Spaghetti 500g,Food Staples,Economy,109,93.23
+SKU0026,Spaghetti 500g,Food Staples,Standard,129,115.91
+SKU0027,Dry Beans 1kg,Food Staples,Standard,189,168.45
+SKU0028,Green Grams 1kg,Food Staples,Standard,219,189.17
+SKU0029,Brown Bread 400g,Food Staples,Standard,69,63.18
+SKU0030,Macaroni 500g,Food Staples,Economy,99,88.18
+SKU0031,Macaroni 500g,Food Staples,Standard,119,103.74
+SKU0032,Tomato Paste 200g,Food Staples,Economy,79,68.72
+SKU0033,Tomato Paste 200g,Food Staples,Standard,89,76.74
+SKU0034,Baking Flour 2kg,Food Staples,Economy,169,148.59
+SKU0035,Baking Flour 2kg,Food Staples,Standard,199,173.95
+SKU0036,Oats 500g,Food Staples,Economy,149,137.12
+SKU0037,Oats 500g,Food Staples,Standard,179,157.35
+SKU0038,Oats 500g,Food Staples,Premium,229,205.54
+SKU0039,Olive Oil 500ml,Food Staples,Economy,919,798.95
+SKU0040,Olive Oil 500ml,Food Staples,Standard,1089,926.05
+SKU0041,Olive Oil 500ml,Food Staples,Premium,1409,1231.66
+SKU0042,Pasta Sauce 400g,Food Staples,Standard,279,237.04
+SKU0043,Pasta Sauce 400g,Food Staples,Premium,369,327.13
+SKU0044,Quinoa 500g,Food Staples,Standard,569,476.91
+SKU0045,Muesli 500g,Food Staples,Economy,409,352.17
+SKU0046,Muesli 500g,Food Staples,Standard,479,
+SKU0047,Muesli 500g,Food Staples,Premium,619,554.54
+SKU0048,Fresh Milk 500ml,Dairy,Economy,49,39.43
+SKU0049,Fresh Milk 500ml,Dairy,Standard,69,57.32
+SKU0050,Fresh Milk 1L,Dairy,Standard,119,98.66
+SKU0051,Fresh Milk 1L,Dairy,Premium,159,135.25
+SKU0052,Eggs Tray of 30,Dairy,Economy,409,338.57
+SKU0053,Eggs Tray of 30,Dairy,Standard,479,386.62
+SKU0054,Yoghurt 500ml,Dairy,Economy,89,70.74
+SKU0055,Yoghurt 500ml,Dairy,Standard,109,94.03
+SKU0056,Margarine 500g,Dairy,Standard,249,
+SKU0057,Margarine 500g,Dairy,Premium,319,267.53
+SKU0058,Long Life Milk 1L,Dairy,Standard,129,106.01
+SKU0059,Long Life Milk 1L,Dairy,Premium,169,140.16
+SKU0060,Butter 250g,Dairy,Economy,259,212.19
+SKU0061,Butter 250g,Dairy,Standard,309,255.66
+SKU0062,Cheddar Cheese 250g,Dairy,Standard,429,359.79
+SKU0063,Eggs Tray of 12,Dairy,Standard,189,153.71
+SKU0064,Greek Yoghurt 500g,Dairy,Standard,249,198.13
+SKU0065,Mozzarella 200g,Dairy,Standard,379,319.97
+SKU0066,Tomatoes 1kg,Farm Produce,Standard,109,78.97
+SKU0067,Onions 1kg,Farm Produce,Standard,109,74.37
+SKU0068,Potatoes 2kg,Farm Produce,Standard,149,107.17
+SKU0069,Kale Bunch,Farm Produce,Standard,29,19.61
+SKU0070,Bananas 1kg,Farm Produce,Standard,99,72.12
+SKU0071,Carrots 1kg,Farm Produce,Standard,89,63.52
+SKU0072,Avocados 4 Pack,Farm Produce,Standard,129,94.17
+SKU0073,Mangoes 1kg,Farm Produce,Standard,139,99.14
+SKU0074,Spinach Bunch,Farm Produce,Standard,29,21.17
+SKU0075,Cooking Bananas 1kg,Farm Produce,Standard,79,57.38
+SKU0076,Oranges 1kg,Farm Produce,Standard,119,85.65
+SKU0077,Garlic 250g,Farm Produce,Standard,99,67.26
+SKU0078,Soda 500ml,Beverages,Economy,59,48.52
+SKU0079,Soda 500ml,Beverages,Standard,69,55.11
+SKU0080,Soda 500ml,Beverages,Premium,89,71.71
+SKU0081,Bottled Water 1.5L,Beverages,Standard,89,71.79
+SKU0082,Fruit Juice 1L,Beverages,Economy,189,154.99
+SKU0083,Fruit Juice 1L,Beverages,Standard,229,180.93
+SKU0084,Fruit Juice 1L,Beverages,Premium,289,229.95
+SKU0085,Tea Bags 100s,Beverages,Standard,269,222.81
+SKU0086,Tea Bags 100s,Beverages,Premium,349,279.12
+SKU0087,Soda 2L,Beverages,Standard,189,162.25
+SKU0088,Instant Coffee 100g,Beverages,Standard,339,286.09
+SKU0089,Energy Drink 500ml,Beverages,Economy,129,106.79
+SKU0090,Energy Drink 500ml,Beverages,Standard,149,118.99
+SKU0091,Bottled Water 500ml,Beverages,Standard,49,40.12
+SKU0092,Bottled Water 500ml,Beverages,Premium,69,57.93
+SKU0093,Drinking Chocolate 400g,Beverages,Standard,379,305.47
+SKU0094,Sparkling Water 500ml,Beverages,Standard,109,
+SKU0095,Iced Tea 500ml,Beverages,Standard,119,97.51
+SKU0096,Biscuits Pack,Snacks & Confectionery,Economy,89,68.23
+SKU0097,Biscuits Pack,Snacks & Confectionery,Standard,109,78.13
+SKU0098,Biscuits Pack,Snacks & Confectionery,Premium,139,100.08
+SKU0099,Potato Crisps,Snacks & Confectionery,Economy,49,36.61
+SKU0100,Potato Crisps,Snacks & Confectionery,Standard,59,N/A
+SKU0101,Potato Crisps,Snacks & Confectionery,Premium,79,61.89
+SKU0102,Chocolate Bar,Snacks & Confectionery,Economy,69,50.51
+SKU0103,Chocolate Bar,Snacks & Confectionery,Standard,89,64.97
+SKU0104,Chocolate Bar,Snacks & Confectionery,Premium,119,
+SKU0105,Sweets Pack,Snacks & Confectionery,Standard,49,36.51
+SKU0106,Breakfast Cereal 500g,Snacks & Confectionery,Standard,409,299.77
+SKU0107,Breakfast Cereal 500g,Snacks & Confectionery,Premium,529,398.62
+SKU0108,Peanut Butter 400g,Snacks & Confectionery,Standard,359,277.25
+SKU0109,Peanut Butter 400g,Snacks & Confectionery,Premium,469,351.05
+SKU0110,Jam 400g,Snacks & Confectionery,Economy,179,126.08
+SKU0111,Jam 400g,Snacks & Confectionery,Standard,209,152.7
+SKU0112,Jam 400g,Snacks & Confectionery,Premium,279,211.08
+SKU0113,Cereal Bars 6 Pack,Snacks & Confectionery,Standard,239,173.64
+SKU0114,Laundry Detergent 1kg,Household & Cleaning,Economy,289,221.8
+SKU0115,Laundry Detergent 1kg,Household & Cleaning,Standard,349,285.55
+SKU0116,Laundry Detergent 1kg,Household & Cleaning,Premium,449,340.18
+SKU0117,Toilet Paper 10 Pack,Household & Cleaning,Economy,399,315.92
+SKU0118,Toilet Paper 10 Pack,Household & Cleaning,Standard,469,372.72
+SKU0119,Dishwashing Liquid 750ml,Household & Cleaning,Economy,159,122.66
+SKU0120,Dishwashing Liquid 750ml,Household & Cleaning,Standard,189,142.8
+SKU0121,Matchbox,Household & Cleaning,Standard,16,12.18
+SKU0122,Bleach 750ml,Household & Cleaning,Standard,149,119.04
+SKU0123,Bleach 750ml,Household & Cleaning,Premium,199,151.23
+SKU0124,Floor Cleaner 1L,Household & Cleaning,Standard,269,207.44
+SKU0125,Floor Cleaner 1L,Household & Cleaning,Premium,349,287.18
+SKU0126,Garbage Bags 20s,Household & Cleaning,Standard,189,146.3
+SKU0127,Air Freshener,Household & Cleaning,Economy,189,143.92
+SKU0128,Air Freshener,Household & Cleaning,Standard,219,171.25
+SKU0129,Insecticide Spray,Household & Cleaning,Economy,329,271.78
+SKU0130,Insecticide Spray,Household & Cleaning,Standard,379,291.24
+SKU0131,Toothpaste 100ml,Personal Care,Economy,159,114.75
+SKU0132,Toothpaste 100ml,Personal Care,Standard,189,140.87
+SKU0133,Toothpaste 100ml,Personal Care,Premium,249,175.62
+SKU0134,Bathing Soap Bar,Personal Care,Economy,69,50.56
+SKU0135,Bathing Soap Bar,Personal Care,Standard,79,58.31
+SKU0136,Bathing Soap Bar,Personal Care,Premium,109,82.11
+SKU0137,Sanitary Pads 10s,Personal Care,Economy,119,83.88
+SKU0138,Sanitary Pads 10s,Personal Care,Standard,139,105.35
+SKU0139,Sanitary Pads 10s,Personal Care,Premium,179,127.35
+SKU0140,Body Lotion 400ml,Personal Care,Economy,299,220.35
+SKU0141,Body Lotion 400ml,Personal Care,Standard,349,N/A
+SKU0142,Body Lotion 400ml,Personal Care,Premium,459,336.03
+SKU0143,Deodorant Roll-on,Personal Care,Standard,309,220.91
+SKU0144,Shampoo 400ml,Personal Care,Economy,319,229.46
+SKU0145,Shampoo 400ml,Personal Care,Standard,369,265.25
+SKU0146,Shampoo 400ml,Personal Care,Premium,479,345.09
+SKU0147,Petroleum Jelly 250ml,Personal Care,Economy,139,97.64
+SKU0148,Petroleum Jelly 250ml,Personal Care,Standard,169,120.93
+SKU0149,Petroleum Jelly 250ml,Personal Care,Premium,219,161.85
+SKU0150,Hair Oil 250ml,Personal Care,Standard,309,222.19
+SKU0151,Hair Oil 250ml,Personal Care,Premium,399,303.91
+SKU0152,Diapers Jumbo Pack,Baby Care,Economy,769,612.34
+SKU0153,Diapers Jumbo Pack,Baby Care,Standard,909,711.68
+SKU0154,Diapers Jumbo Pack,Baby Care,Premium,1179,967.92
+SKU0155,Baby Wipes 80s,Baby Care,Standard,279,215.67
+SKU0156,Baby Lotion 300ml,Baby Care,Economy,289,229.03
+SKU0157,Baby Lotion 300ml,Baby Care,Standard,339,266.35
+SKU0158,Infant Formula 400g,Baby Care,Economy,889,706.07
+SKU0159,Infant Formula 400g,Baby Care,Standard,1049,878.63
+SKU0160,Baby Soap,Baby Care,Standard,149,124.82
+SKU0161,Exercise Book 96pg,School & Stationery,Standard,49,31.59
+SKU0162,Exercise Book 96pg,School & Stationery,Premium,59,40.18
+SKU0163,Exercise Book 200pg,School & Stationery,Standard,89,57.12
+SKU0164,Ball Pens Box of 12,School & Stationery,Standard,239,158.48
+SKU0165,Geometry Set,School & Stationery,Standard,199,128.91
+SKU0166,School Bag,School & Stationery,Economy,989,665.0
+SKU0167,School Bag,School & Stationery,Standard,1169,770.13
+SKU0168,Crayons 12 Colours,School & Stationery,Standard,179,115.32
+SKU0169,Notebook A4,School & Stationery,Economy,159,99.48
+SKU0170,Notebook A4,School & Stationery,Standard,189,130.11
+SKU0171,Notebook A4,School & Stationery,Premium,239,156.46

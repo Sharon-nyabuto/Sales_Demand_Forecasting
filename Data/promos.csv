@@ -1,0 +1,323 @@
+promo_id,promo_name,promo_type,start_date,end_date,scope_type,category,product_id,store_scope,discount_pct
+PR0001,Weekly SKU Offer,Percentage off,04-Oct-2024,17-Oct-2024,SKU,,SKU0066,ALL,10
+PR0002,Weekly SKU Offer,Percentage off,05-Oct-2024,11-Oct-2024,SKU,,SKU0002,ALL,40
+PR0003,Weekly SKU Offer,Percentage off,05-Oct-2024,11-Oct-2024,SKU,,SKU0120,ALL,20
+PR0004,Weekly SKU Offer,Percentage off,07-Oct-2024,20-Oct-2024,SKU,,SKU0161,ALL,20
+PR0005,Weekly SKU Offer,Percentage off,08-Oct-2024,14-Oct-2024,SKU,,SKU0096,ALL,10
+PR0006,Weekly SKU Offer,Percentage off,09-Oct-2024,22-Oct-2024,SKU,,SKU0070,ALL,20
+PR0007,Weekly SKU Offer,Percentage off,15-Oct-2024,21-Oct-2024,SKU,,SKU0137,ALL,30
+PR0008,Weekly SKU Offer,Percentage off,19-Oct-2024,01-Nov-2024,SKU,,SKU0092,S01;S02;S04;S08;S09,30
+PR0009,Payday Deals,Percentage off,27-Oct-2024,31-Oct-2024,Category,Beverages,,ALL,5
+PR0010,Payday Deals,Percentage off,27-Oct-2024,31-Oct-2024,Category,Household & Cleaning,,ALL,10
+PR0011,Weekly SKU Offer,Percentage off,03-Nov-2024,09-Nov-2024,SKU,,SKU0023,ALL,10
+PR0012,Weekly SKU Offer,Percentage off,05-Nov-2024,11-Nov-2024,SKU,,SKU0124,S01;S03;S05;S09;S10,20
+PR0013,Weekly SKU Offer,Percentage off,05-Nov-2024,11-Nov-2024,SKU,,SKU0075,S02;S05;S07,20
+PR0014,Weekly SKU Offer,Percentage off,05-Nov-2024,11-Nov-2024,SKU,,SKU0094,S03;S04;S05;S06;S07;S09,30
+PR0015,Weekly SKU Offer,Percentage off,06-Nov-2024,12-Nov-2024,SKU,,SKU0094,ALL,10
+PR0016,Weekly SKU Offer,Percentage off,11-Nov-2024,24-Nov-2024,SKU,,SKU0056,ALL,40
+PR0017,Weekly SKU Offer,Percentage off,13-Nov-2024,19-Nov-2024,SKU,,SKU0053,ALL,10
+PR0018,Weekly SKU Offer,Percentage off,15-Nov-2024,28-Nov-2024,SKU,,SKU0052,S03;S05;S06;S07,5
+PR0019,Weekly SKU Offer,Percentage off,16-Nov-2024,29-Nov-2024,SKU,,SKU0060,S01;S05;S10,10
+PR0020,Weekly SKU Offer,Percentage off,19-Nov-2024,02-Dec-2024,SKU,,SKU0098,S01;S02;S03;S08,10
+PR0021,Weekly SKU Offer,Percentage off,20-Nov-2024,26-Nov-2024,SKU,,SKU0102,ALL,20
+PR0022,Payday Deals,Percentage off,26-Nov-2024,30-Nov-2024,Category,Snacks & Confectionery,,ALL,5
+PR0023,Payday Deals,Percentage off,26-Nov-2024,30-Nov-2024,Category,Personal Care,,ALL,10
+PR0024,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Food Staples,,ALL,25
+PR0025,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Dairy,,ALL,25
+PR0026,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Farm Produce,,ALL,25
+PR0027,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Beverages,,ALL,25
+PR0028,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Snacks & Confectionery,,ALL,25
+PR0029,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Household & Cleaning,,ALL,25
+PR0030,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Personal Care,,ALL,25
+PR0031,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,Baby Care,,ALL,25
+PR0032,Black Friday,Percentage off,29-Nov-2024,02-Dec-2024,Category,School & Stationery,,ALL,25
+PR0033,Weekly SKU Offer,Percentage off,03-Dec-2024,09-Dec-2024,SKU,,SKU0055,ALL,30
+PR0034,Weekly SKU Offer,Percentage off,07-Dec-2024,13-Dec-2024,SKU,,SKU0091,S01;S02;S04;S06;S07,20
+PR0035,Festive Season,Percentage off,10-Dec-2024,24-Dec-2024,Category,Beverages,,ALL,15
+PR0036,Festive Season,Percentage off,10-Dec-2024,24-Dec-2024,Category,Snacks & Confectionery,,ALL,15
+PR0037,Weekly SKU Offer,Percentage off,10-Dec-2024,23-Dec-2024,SKU,,SKU0081,S03;S08;S09,10
+PR0038,Weekly SKU Offer,Percentage off,11-Dec-2024,24-Dec-2024,SKU,,SKU0076,S01;S04;S05;S08;S09;S10,20
+PR0039,Weekly SKU Offer,Percentage off,14-Dec-2024,20-Dec-2024,SKU,,SKU0108,S01;S03;S06;S09,10
+PR0040,Weekly SKU Offer,Percentage off,17-Dec-2024,30-Dec-2024,SKU,,SKU0070,ALL,20
+PR0041,Weekly SKU Offer,Percentage off,18-Dec-2024,31-Dec-2024,SKU,,SKU0014,ALL,30
+PR0042,Weekly SKU Offer,Percentage off,21-Dec-2024,27-Dec-2024,SKU,,SKU0105,ALL,30
+PR0043,Payday Deals,Percentage off,27-Dec-2024,31-Dec-2024,Category,Personal Care,,ALL,15
+PR0044,Payday Deals,Percentage off,27-Dec-2024,31-Dec-2024,Category,Household & Cleaning,,ALL,10
+PR0045,Back to School,Percentage off,02-Jan-2025,20-Jan-2025,Category,School & Stationery,,ALL,20
+PR0046,Weekly SKU Offer,Percentage off,03-Jan-2025,16-Jan-2025,SKU,,SKU0020,S01;S02;S04;S05;S07;S08,10
+PR0047,Weekly SKU Offer,Percentage off,04-Jan-2025,17-Jan-2025,SKU,,SKU0131,ALL,5
+PR0048,Weekly SKU Offer,Percentage off,05-Jan-2025,18-Jan-2025,SKU,,SKU0127,S01;S03;S04;S05;S08;S10,40
+PR0049,Weekly SKU Offer,Percentage off,13-Jan-2025,26-Jan-2025,SKU,,SKU0035,S02;S04;S05;S06;S09,10
+PR0050,Weekly SKU Offer,Percentage off,15-Jan-2025,21-Jan-2025,SKU,,SKU0011,S01;S03;S05;S06;S07;S10,10
+PR0051,Weekly SKU Offer,Percentage off,16-Jan-2025,29-Jan-2025,SKU,,SKU0135,ALL,30
+PR0052,Weekly SKU Offer,Percentage off,19-Jan-2025,25-Jan-2025,SKU,,SKU0017,S01;S02;S04;S05;S08,20
+PR0053,Weekly SKU Offer,Percentage off,20-Jan-2025,26-Jan-2025,SKU,,SKU0081,ALL,40
+PR0054,Payday Deals,Percentage off,27-Jan-2025,31-Jan-2025,Category,Beverages,,ALL,10
+PR0055,Payday Deals,Percentage off,27-Jan-2025,31-Jan-2025,Category,Household & Cleaning,,ALL,10
+PR0056,Weekly SKU Offer,Percentage off,01-Feb-2025,07-Feb-2025,SKU,,SKU0012,S01;S04;S05;S10,30
+PR0057,Weekly SKU Offer,Percentage off,04-Feb-2025,10-Feb-2025,SKU,,SKU0065,S02;S04;S07;S08,10
+PR0058,Weekly SKU Offer,Percentage off,08-Feb-2025,21-Feb-2025,SKU,,SKU0068,S05;S06;S07;S08;S09;S10,10
+PR0059,Weekly SKU Offer,Percentage off,11-Feb-2025,17-Feb-2025,SKU,,SKU0049,ALL,10
+PR0060,Weekly SKU Offer,Percentage off,11-Feb-2025,24-Feb-2025,SKU,,SKU0044,S01;S03;S07;S09;S10,5
+PR0061,Weekly SKU Offer,Percentage off,13-Feb-2025,19-Feb-2025,SKU,,SKU0049,S01;S02;S03;S06;S08;S10,10
+PR0062,Weekly SKU Offer,Percentage off,14-Feb-2025,27-Feb-2025,SKU,,SKU0080,S02;S04;S06;S08,10
+PR0063,Weekly SKU Offer,Percentage off,17-Feb-2025,23-Feb-2025,SKU,,SKU0069,ALL,20
+PR0064,Weekly SKU Offer,Percentage off,18-Feb-2025,03-Mar-2025,SKU,,SKU0067,S01;S03;S04;S06;S07;S08,20
+PR0065,Payday Deals,Percentage off,24-Feb-2025,28-Feb-2025,Category,Personal Care,,ALL,10
+PR0066,Payday Deals,Percentage off,24-Feb-2025,28-Feb-2025,Category,Food Staples,,ALL,15
+PR0067,Weekly SKU Offer,Percentage off,02-Mar-2025,15-Mar-2025,SKU,,SKU0050,ALL,40
+PR0068,Weekly SKU Offer,Percentage off,02-Mar-2025,15-Mar-2025,SKU,,SKU0066,ALL,40
+PR0069,Weekly SKU Offer,Percentage off,04-Mar-2025,10-Mar-2025,SKU,,SKU0105,S05;S06;S08;S10,5
+PR0070,Weekly SKU Offer,Percentage off,06-Mar-2025,12-Mar-2025,SKU,,SKU0067,S01;S06;S07;S08;S09,40
+PR0071,Weekly SKU Offer,Percentage off,06-Mar-2025,12-Mar-2025,SKU,,SKU0072,S01;S07;S09,10
+PR0072,Weekly SKU Offer,Percentage off,10-Mar-2025,16-Mar-2025,SKU,,SKU0075,ALL,10
+PR0073,Weekly SKU Offer,Percentage off,13-Mar-2025,19-Mar-2025,SKU,,SKU0002,S05;S08;S10,30
+PR0074,Weekly SKU Offer,Percentage off,16-Mar-2025,29-Mar-2025,SKU,,SKU0125,ALL,10
+PR0075,Weekly SKU Offer,Percentage off,18-Mar-2025,24-Mar-2025,SKU,,SKU0065,S01;S03;S04;S06,20
+PR0076,Weekly SKU Offer,Percentage off,19-Mar-2025,25-Mar-2025,SKU,,SKU0150,ALL,20
+PR0077,Weekly SKU Offer,Percentage off,20-Mar-2025,02-Apr-2025,SKU,,SKU0012,ALL,40
+PR0078,Payday Deals,Percentage off,27-Mar-2025,31-Mar-2025,Category,Household & Cleaning,,ALL,5
+PR0079,Payday Deals,Percentage off,27-Mar-2025,31-Mar-2025,Category,Food Staples,,ALL,15
+PR0080,Weekly SKU Offer,Percentage off,01-Apr-2025,14-Apr-2025,SKU,,SKU0021,ALL,20
+PR0081,Weekly SKU Offer,Percentage off,02-Apr-2025,08-Apr-2025,SKU,,SKU0074,ALL,40
+PR0082,Weekly SKU Offer,Percentage off,05-Apr-2025,18-Apr-2025,SKU,,SKU0078,ALL,10
+PR0083,Weekly SKU Offer,Percentage off,10-Apr-2025,23-Apr-2025,SKU,,SKU0082,ALL,5
+PR0084,Weekly SKU Offer,Percentage off,11-Apr-2025,17-Apr-2025,SKU,,SKU0140,ALL,10
+PR0085,Weekly SKU Offer,Percentage off,13-Apr-2025,19-Apr-2025,SKU,,SKU0050,S01;S05;S06;S07;S08,5
+PR0086,Weekly SKU Offer,Percentage off,14-Apr-2025,20-Apr-2025,SKU,,SKU0092,ALL,5
+PR0087,Easter Offers,Percentage off,16-Apr-2025,21-Apr-2025,Category,Dairy,,ALL,10
+PR0088,Easter Offers,Percentage off,16-Apr-2025,21-Apr-2025,Category,Farm Produce,,ALL,10
+PR0089,Easter Offers,Percentage off,16-Apr-2025,21-Apr-2025,Category,Snacks & Confectionery,,ALL,10
+PR0090,Weekly SKU Offer,Percentage off,18-Apr-2025,24-Apr-2025,SKU,,SKU0089,ALL,10
+PR0091,Weekly SKU Offer,Percentage off,19-Apr-2025,25-Apr-2025,SKU,,SKU0085,S01;S03;S06;S07;S08,30
+PR0092,Weekly SKU Offer,Percentage off,19-Apr-2025,02-May-2025,SKU,,SKU0078,ALL,5
+PR0093,Weekly SKU Offer,Percentage off,20-Apr-2025,26-Apr-2025,SKU,,SKU0045,S01;S09;S10,20
+PR0094,Back to School,Percentage off,22-Apr-2025,06-May-2025,Category,School & Stationery,,ALL,12
+PR0095,Payday Deals,Percentage off,26-Apr-2025,30-Apr-2025,Category,Personal Care,,ALL,5
+PR0096,Payday Deals,Percentage off,26-Apr-2025,30-Apr-2025,Category,Beverages,,ALL,10
+PR0097,Weekly SKU Offer,Percentage off,01-May-2025,07-May-2025,SKU,,SKU0066,ALL,30
+PR0098,Weekly SKU Offer,Percentage off,06-May-2025,12-May-2025,SKU,,SKU0119,S01;S03;S05;S06;S08;S10,20
+PR0099,Weekly SKU Offer,Percentage off,10-May-2025,23-May-2025,SKU,,SKU0081,ALL,40
+PR0100,Weekly SKU Offer,Percentage off,14-May-2025,27-May-2025,SKU,,SKU0019,ALL,40
+PR0101,Weekly SKU Offer,Percentage off,15-May-2025,28-May-2025,SKU,,SKU0004,S02;S05;S07,40
+PR0102,Weekly SKU Offer,Percentage off,18-May-2025,24-May-2025,SKU,,SKU0069,ALL,30
+PR0103,Weekly SKU Offer,Percentage off,18-May-2025,24-May-2025,SKU,,SKU0118,S02;S08;S09;S10,10
+PR0104,Weekly SKU Offer,Percentage off,19-May-2025,25-May-2025,SKU,,SKU0066,S02;S07;S08,5
+PR0105,Payday Deals,Percentage off,27-May-2025,31-May-2025,Category,Beverages,,ALL,15
+PR0106,Payday Deals,Percentage off,27-May-2025,31-May-2025,Category,Household & Cleaning,,ALL,15
+PR0107,Weekly SKU Offer,Percentage off,01-Jun-2025,07-Jun-2025,SKU,,SKU0078,ALL,5
+PR0108,Weekly SKU Offer,Percentage off,04-Jun-2025,10-Jun-2025,SKU,,SKU0011,S06;S08;S09,30
+PR0109,Weekly SKU Offer,Percentage off,05-Jun-2025,11-Jun-2025,SKU,,SKU0014,S07;S09;S10,30
+PR0110,Weekly SKU Offer,Percentage off,07-Jun-2025,20-Jun-2025,SKU,,SKU0069,S02;S06;S07;S10,40
+PR0111,Weekly SKU Offer,Percentage off,09-Jun-2025,22-Jun-2025,SKU,,SKU0087,ALL,5
+PR0112,Weekly SKU Offer,Percentage off,10-Jun-2025,23-Jun-2025,SKU,,SKU0056,ALL,20
+PR0113,Weekly SKU Offer,Percentage off,11-Jun-2025,17-Jun-2025,SKU,,SKU0162,S02;S06;S08;S10,30
+PR0114,Weekly SKU Offer,Percentage off,13-Jun-2025,19-Jun-2025,SKU,,SKU0079,S03;S05;S09,40
+PR0115,Weekly SKU Offer,Percentage off,15-Jun-2025,28-Jun-2025,SKU,,SKU0088,ALL,10
+PR0116,Weekly SKU Offer,Percentage off,18-Jun-2025,24-Jun-2025,SKU,,SKU0057,S01;S03;S04;S05;S07;S08,5
+PR0117,Weekly SKU Offer,Percentage off,21-Jun-2025,27-Jun-2025,SKU,,SKU0029,S01;S02;S06;S07;S10,10
+PR0118,Weekly SKU Offer,Percentage off,21-Jun-2025,04-Jul-2025,SKU,,SKU0061,ALL,10
+PR0119,Payday Deals,Percentage off,26-Jun-2025,30-Jun-2025,Category,Snacks & Confectionery,,ALL,5
+PR0120,Payday Deals,Percentage off,26-Jun-2025,30-Jun-2025,Category,Food Staples,,ALL,5
+PR0121,Weekly SKU Offer,Percentage off,01-Jul-2025,14-Jul-2025,SKU,,SKU0164,S01;S02;S03;S04;S07,10
+PR0122,Weekly SKU Offer,Percentage off,03-Jul-2025,09-Jul-2025,SKU,,SKU0075,ALL,10
+PR0123,Weekly SKU Offer,Percentage off,06-Jul-2025,19-Jul-2025,SKU,,SKU0001,ALL,20
+PR0124,Weekly SKU Offer,Percentage off,08-Jul-2025,14-Jul-2025,SKU,,SKU0029,ALL,10
+PR0125,Weekly SKU Offer,Percentage off,10-Jul-2025,16-Jul-2025,SKU,,SKU0067,ALL,20
+PR0126,Weekly SKU Offer,Percentage off,11-Jul-2025,24-Jul-2025,SKU,,SKU0062,ALL,5
+PR0127,Weekly SKU Offer,Percentage off,12-Jul-2025,25-Jul-2025,SKU,,SKU0103,ALL,5
+PR0128,Weekly SKU Offer,Percentage off,13-Jul-2025,19-Jul-2025,SKU,,SKU0027,ALL,40
+PR0129,Weekly SKU Offer,Percentage off,15-Jul-2025,28-Jul-2025,SKU,,SKU0105,ALL,30
+PR0130,Weekly SKU Offer,Percentage off,19-Jul-2025,01-Aug-2025,SKU,,SKU0021,ALL,20
+PR0131,Weekly SKU Offer,Percentage off,20-Jul-2025,02-Aug-2025,SKU,,SKU0163,ALL,20
+PR0132,Weekly SKU Offer,Percentage off,21-Jul-2025,27-Jul-2025,SKU,,SKU0079,ALL,5
+PR0133,Payday Deals,Percentage off,27-Jul-2025,31-Jul-2025,Category,Beverages,,ALL,10
+PR0134,Payday Deals,Percentage off,27-Jul-2025,31-Jul-2025,Category,Personal Care,,ALL,5
+PR0135,Weekly SKU Offer,Percentage off,03-Aug-2025,16-Aug-2025,SKU,,SKU0048,ALL,20
+PR0136,Weekly SKU Offer,Percentage off,08-Aug-2025,21-Aug-2025,SKU,,SKU0120,S02;S05;S07;S08;S10,10
+PR0137,Weekly SKU Offer,Percentage off,13-Aug-2025,19-Aug-2025,SKU,,SKU0076,ALL,40
+PR0138,Weekly SKU Offer,Percentage off,15-Aug-2025,28-Aug-2025,SKU,,SKU0029,ALL,10
+PR0139,Weekly SKU Offer,Percentage off,16-Aug-2025,22-Aug-2025,SKU,,SKU0062,ALL,20
+PR0140,Weekly SKU Offer,Percentage off,18-Aug-2025,31-Aug-2025,SKU,,SKU0033,S02;S05;S06;S07;S09,20
+PR0141,Weekly SKU Offer,Percentage off,18-Aug-2025,31-Aug-2025,SKU,,SKU0063,ALL,20
+PR0142,Weekly SKU Offer,Percentage off,20-Aug-2025,26-Aug-2025,SKU,,SKU0062,S03;S04;S05;S07;S08;S09,5
+PR0143,Back to School,Percentage off,22-Aug-2025,05-Sep-2025,Category,School & Stationery,,ALL,12
+PR0144,Payday Deals,Percentage off,27-Aug-2025,31-Aug-2025,Category,Household & Cleaning,,ALL,5
+PR0145,Payday Deals,Percentage off,27-Aug-2025,31-Aug-2025,Category,Snacks & Confectionery,,ALL,10
+PR0146,Weekly SKU Offer,Percentage off,04-Sep-2025,10-Sep-2025,SKU,,SKU0068,ALL,5
+PR0147,Weekly SKU Offer,Percentage off,06-Sep-2025,19-Sep-2025,SKU,,SKU0004,ALL,20
+PR0148,Weekly SKU Offer,Percentage off,08-Sep-2025,21-Sep-2025,SKU,,SKU0135,S04;S05;S09,20
+PR0149,Weekly SKU Offer,Percentage off,12-Sep-2025,25-Sep-2025,SKU,,SKU0016,S01;S02;S05,30
+PR0150,Weekly SKU Offer,Percentage off,12-Sep-2025,18-Sep-2025,SKU,,SKU0104,S01;S02;S03;S04;S07;S08,10
+PR0151,Weekly SKU Offer,Percentage off,13-Sep-2025,19-Sep-2025,SKU,,SKU0085,ALL,10
+PR0152,Weekly SKU Offer,Percentage off,14-Sep-2025,20-Sep-2025,SKU,,SKU0029,S01;S05;S07;S09;S10,30
+PR0153,Weekly SKU Offer,Percentage off,19-Sep-2025,25-Sep-2025,SKU,,SKU0138,ALL,20
+PR0154,Weekly SKU Offer,Percentage off,20-Sep-2025,26-Sep-2025,SKU,,SKU0002,S01;S03;S06;S08;S10,30
+PR0155,Weekly SKU Offer,Percentage off,20-Sep-2025,03-Oct-2025,SKU,,SKU0034,ALL,10
+PR0156,Payday Deals,Percentage off,26-Sep-2025,30-Sep-2025,Category,Household & Cleaning,,ALL,10
+PR0157,Payday Deals,Percentage off,26-Sep-2025,30-Sep-2025,Category,Personal Care,,ALL,5
+PR0158,Weekly SKU Offer,Percentage off,03-Oct-2025,16-Oct-2025,SKU,,SKU0137,ALL,40
+PR0159,Weekly SKU Offer,Percentage off,05-Oct-2025,11-Oct-2025,SKU,,SKU0021,S01;S02;S04;S07;S10,20
+PR0160,Weekly SKU Offer,Percentage off,07-Oct-2025,13-Oct-2025,SKU,,SKU0056,ALL,20
+PR0161,Weekly SKU Offer,Percentage off,08-Oct-2025,14-Oct-2025,SKU,,SKU0127,ALL,5
+PR0162,Weekly SKU Offer,Percentage off,08-Oct-2025,14-Oct-2025,SKU,,SKU0138,ALL,20
+PR0163,Weekly SKU Offer,Percentage off,10-Oct-2025,23-Oct-2025,SKU,,SKU0085,ALL,5
+PR0164,Weekly SKU Offer,Percentage off,13-Oct-2025,26-Oct-2025,SKU,,SKU0121,ALL,5
+PR0165,Weekly SKU Offer,Percentage off,15-Oct-2025,21-Oct-2025,SKU,,SKU0048,S01;S03;S09;S10,20
+PR0166,Weekly SKU Offer,Percentage off,19-Oct-2025,25-Oct-2025,SKU,,SKU0094,ALL,20
+PR0167,Weekly SKU Offer,Percentage off,20-Oct-2025,26-Oct-2025,SKU,,SKU0083,ALL,20
+PR0168,Weekly SKU Offer,Percentage off,21-Oct-2025,03-Nov-2025,SKU,,SKU0131,S02;S04;S05;S10,10
+PR0169,Payday Deals,Percentage off,27-Oct-2025,31-Oct-2025,Category,Food Staples,,ALL,10
+PR0170,Payday Deals,Percentage off,27-Oct-2025,31-Oct-2025,Category,Household & Cleaning,,ALL,15
+PR0171,Weekly SKU Offer,Percentage off,02-Nov-2025,08-Nov-2025,SKU,,SKU0122,S03;S07;S09,20
+PR0172,Weekly SKU Offer,Percentage off,05-Nov-2025,11-Nov-2025,SKU,,SKU0027,S02;S06;S07,20
+PR0173,Weekly SKU Offer,Percentage off,08-Nov-2025,21-Nov-2025,SKU,,SKU0010,S03;S04;S05;S06;S07;S08,5
+PR0174,Weekly SKU Offer,Percentage off,08-Nov-2025,21-Nov-2025,SKU,,SKU0010,S01;S02;S04;S05;S06;S09,40
+PR0175,Weekly SKU Offer,Percentage off,08-Nov-2025,14-Nov-2025,SKU,,SKU0108,ALL,40
+PR0176,Weekly SKU Offer,Percentage off,10-Nov-2025,16-Nov-2025,SKU,,SKU0077,ALL,10
+PR0177,Weekly SKU Offer,Percentage off,10-Nov-2025,23-Nov-2025,SKU,,SKU0003,S01;S02;S03;S04;S07;S09,20
+PR0178,Weekly SKU Offer,Percentage off,14-Nov-2025,20-Nov-2025,SKU,,SKU0051,S01;S03;S04;S07;S08;S10,20
+PR0179,Weekly SKU Offer,Percentage off,15-Nov-2025,28-Nov-2025,SKU,,SKU0017,S01;S02;S05;S07;S09;S10,20
+PR0180,Weekly SKU Offer,Percentage off,17-Nov-2025,30-Nov-2025,SKU,,SKU0049,ALL,5
+PR0181,Weekly SKU Offer,Percentage off,20-Nov-2025,26-Nov-2025,SKU,,SKU0002,ALL,10
+PR0182,Payday Deals,Percentage off,26-Nov-2025,30-Nov-2025,Category,Personal Care,,ALL,10
+PR0183,Payday Deals,Percentage off,26-Nov-2025,30-Nov-2025,Category,Snacks & Confectionery,,ALL,15
+PR0184,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Food Staples,,ALL,25
+PR0185,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Dairy,,ALL,25
+PR0186,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Farm Produce,,ALL,25
+PR0187,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Beverages,,ALL,25
+PR0188,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Snacks & Confectionery,,ALL,25
+PR0189,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Household & Cleaning,,ALL,25
+PR0190,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Personal Care,,ALL,25
+PR0191,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,Baby Care,,ALL,25
+PR0192,Black Friday,Percentage off,28-Nov-2025,01-Dec-2025,Category,School & Stationery,,ALL,25
+PR0193,Weekly SKU Offer,Percentage off,02-Dec-2025,15-Dec-2025,SKU,,SKU0046,S01;S02;S05;S09;S10,20
+PR0194,Weekly SKU Offer,Percentage off,04-Dec-2025,10-Dec-2025,SKU,,SKU0017,S03;S04;S05;S06;S10,20
+PR0195,Weekly SKU Offer,Percentage off,05-Dec-2025,18-Dec-2025,SKU,,SKU0135,ALL,5
+PR0196,Weekly SKU Offer,Percentage off,07-Dec-2025,20-Dec-2025,SKU,,SKU0059,S01;S04;S07;S10,20
+PR0197,Weekly SKU Offer,Percentage off,08-Dec-2025,14-Dec-2025,SKU,,SKU0059,S01;S02;S04;S05;S06;S09,20
+PR0198,Festive Season,Percentage off,10-Dec-2025,24-Dec-2025,Category,Beverages,,ALL,15
+PR0199,Festive Season,Percentage off,10-Dec-2025,24-Dec-2025,Category,Snacks & Confectionery,,ALL,15
+PR0200,Weekly SKU Offer,Percentage off,15-Dec-2025,28-Dec-2025,SKU,,SKU0129,ALL,30
+PR0201,Weekly SKU Offer,Percentage off,16-Dec-2025,29-Dec-2025,SKU,,SKU0043,ALL,30
+PR0202,Weekly SKU Offer,Percentage off,16-Dec-2025,29-Dec-2025,SKU,,SKU0061,S02;S03;S05;S07,40
+PR0203,Weekly SKU Offer,Percentage off,17-Dec-2025,30-Dec-2025,SKU,,SKU0126,ALL,20
+PR0204,Weekly SKU Offer,Percentage off,17-Dec-2025,23-Dec-2025,SKU,,SKU0148,S01;S03;S06;S08,5
+PR0205,Weekly SKU Offer,Percentage off,18-Dec-2025,24-Dec-2025,SKU,,SKU0001,S03;S05;S08;S09;S10,20
+PR0206,Weekly SKU Offer,Percentage off,18-Dec-2025,31-Dec-2025,SKU,,SKU0048,ALL,5
+PR0207,Payday Deals,Percentage off,27-Dec-2025,31-Dec-2025,Category,Household & Cleaning,,ALL,5
+PR0208,Payday Deals,Percentage off,27-Dec-2025,31-Dec-2025,Category,Snacks & Confectionery,,ALL,15
+PR0209,Weekly SKU Offer,Percentage off,01-Jan-2026,14-Jan-2026,SKU,,SKU0096,ALL,20
+PR0210,Back to School,Percentage off,02-Jan-2026,20-Jan-2026,Category,School & Stationery,,ALL,20
+PR0211,Weekly SKU Offer,Percentage off,03-Jan-2026,16-Jan-2026,SKU,,SKU0138,ALL,20
+PR0212,Weekly SKU Offer,Percentage off,10-Jan-2026,16-Jan-2026,SKU,,SKU0148,ALL,30
+PR0213,Weekly SKU Offer,Percentage off,12-Jan-2026,18-Jan-2026,SKU,,SKU0027,S01;S02;S03;S07;S08,40
+PR0214,Weekly SKU Offer,Percentage off,13-Jan-2026,26-Jan-2026,SKU,,SKU0050,S01;S05;S06;S08;S09;S10,5
+PR0215,Weekly SKU Offer,Percentage off,13-Jan-2026,19-Jan-2026,SKU,,SKU0165,S01;S03;S05;S06;S08;S09,5
+PR0216,Weekly SKU Offer,Percentage off,14-Jan-2026,20-Jan-2026,SKU,,SKU0087,S03;S04;S07;S10,5
+PR0217,Weekly SKU Offer,Percentage off,16-Jan-2026,29-Jan-2026,SKU,,SKU0120,ALL,30
+PR0218,Weekly SKU Offer,Percentage off,16-Jan-2026,22-Jan-2026,SKU,,SKU0020,S01;S03;S06;S07;S08;S09,20
+PR0219,Weekly SKU Offer,Percentage off,19-Jan-2026,01-Feb-2026,SKU,,SKU0161,S03;S04;S06;S09;S10,10
+PR0220,Weekly SKU Offer,Percentage off,21-Jan-2026,27-Jan-2026,SKU,,SKU0134,S03;S04;S05;S07;S09;S10,10
+PR0221,Payday Deals,Percentage off,27-Jan-2026,31-Jan-2026,Category,Snacks & Confectionery,,ALL,15
+PR0222,Payday Deals,Percentage off,27-Jan-2026,31-Jan-2026,Category,Beverages,,ALL,10
+PR0223,Weekly SKU Offer,Percentage off,01-Feb-2026,07-Feb-2026,SKU,,SKU0063,ALL,20
+PR0224,Weekly SKU Offer,Percentage off,04-Feb-2026,10-Feb-2026,SKU,,SKU0025,S04;S06;S10,30
+PR0225,Weekly SKU Offer,Percentage off,04-Feb-2026,17-Feb-2026,SKU,,SKU0055,ALL,30
+PR0226,Weekly SKU Offer,Percentage off,06-Feb-2026,19-Feb-2026,SKU,,SKU0015,S01;S02;S03;S04;S06;S08,10
+PR0227,Weekly SKU Offer,Percentage off,06-Feb-2026,12-Feb-2026,SKU,,SKU0143,ALL,30
+PR0228,Weekly SKU Offer,Percentage off,09-Feb-2026,15-Feb-2026,SKU,,SKU0019,ALL,40
+PR0229,Weekly SKU Offer,Percentage off,09-Feb-2026,15-Feb-2026,SKU,,SKU0009,ALL,20
+PR0230,Weekly SKU Offer,Percentage off,11-Feb-2026,24-Feb-2026,SKU,,SKU0049,ALL,20
+PR0231,Weekly SKU Offer,Percentage off,16-Feb-2026,22-Feb-2026,SKU,,SKU0138,S03;S05;S07;S08;S09,40
+PR0232,Weekly SKU Offer,Percentage off,16-Feb-2026,01-Mar-2026,SKU,,SKU0113,ALL,40
+PR0233,Weekly SKU Offer,Percentage off,21-Feb-2026,06-Mar-2026,SKU,,SKU0138,S01;S03;S04;S06;S08,30
+PR0234,Payday Deals,Percentage off,24-Feb-2026,28-Feb-2026,Category,Personal Care,,ALL,10
+PR0235,Payday Deals,Percentage off,24-Feb-2026,28-Feb-2026,Category,Food Staples,,ALL,5
+PR0236,Weekly SKU Offer,Percentage off,01-Mar-2026,14-Mar-2026,SKU,,SKU0027,S01;S02;S07,40
+PR0237,Weekly SKU Offer,Percentage off,04-Mar-2026,10-Mar-2026,SKU,,SKU0110,S01;S02;S05;S07;S08,10
+PR0238,Weekly SKU Offer,Percentage off,04-Mar-2026,17-Mar-2026,SKU,,SKU0001,ALL,20
+PR0239,Weekly SKU Offer,Percentage off,06-Mar-2026,19-Mar-2026,SKU,,SKU0071,ALL,5
+PR0240,Weekly SKU Offer,Percentage off,07-Mar-2026,20-Mar-2026,SKU,,SKU0051,ALL,10
+PR0241,Weekly SKU Offer,Percentage off,08-Mar-2026,21-Mar-2026,SKU,,SKU0059,ALL,20
+PR0242,Weekly SKU Offer,Percentage off,13-Mar-2026,19-Mar-2026,SKU,,SKU0004,ALL,20
+PR0243,Weekly SKU Offer,Percentage off,18-Mar-2026,24-Mar-2026,SKU,,SKU0068,S05;S09;S10,30
+PR0244,Weekly SKU Offer,Percentage off,20-Mar-2026,26-Mar-2026,SKU,,SKU0121,S01;S02;S03;S06;S08;S10,5
+PR0245,Weekly SKU Offer,Percentage off,21-Mar-2026,03-Apr-2026,SKU,,SKU0078,ALL,10
+PR0246,Weekly SKU Offer,Percentage off,21-Mar-2026,27-Mar-2026,SKU,,SKU0026,ALL,40
+PR0247,Payday Deals,Percentage off,27-Mar-2026,31-Mar-2026,Category,Food Staples,,ALL,15
+PR0248,Payday Deals,Percentage off,27-Mar-2026,31-Mar-2026,Category,Beverages,,ALL,10
+PR0249,Easter Offers,Percentage off,01-Apr-2026,06-Apr-2026,Category,Dairy,,ALL,10
+PR0250,Easter Offers,Percentage off,01-Apr-2026,06-Apr-2026,Category,Farm Produce,,ALL,10
+PR0251,Easter Offers,Percentage off,01-Apr-2026,06-Apr-2026,Category,Snacks & Confectionery,,ALL,10
+PR0252,Weekly SKU Offer,Percentage off,04-Apr-2026,10-Apr-2026,SKU,,SKU0117,ALL,5
+PR0253,Weekly SKU Offer,Percentage off,05-Apr-2026,18-Apr-2026,SKU,,SKU0011,ALL,10
+PR0254,Weekly SKU Offer,Percentage off,08-Apr-2026,21-Apr-2026,SKU,,SKU0014,S02;S05;S06;S07;S10,5
+PR0255,Weekly SKU Offer,Percentage off,11-Apr-2026,24-Apr-2026,SKU,,SKU0020,ALL,30
+PR0256,Weekly SKU Offer,Percentage off,12-Apr-2026,18-Apr-2026,SKU,,SKU0087,S03;S07;S08;S09;S10,20
+PR0257,Weekly SKU Offer,Percentage off,13-Apr-2026,26-Apr-2026,SKU,,SKU0022,ALL,20
+PR0258,Weekly SKU Offer,Percentage off,14-Apr-2026,27-Apr-2026,SKU,,SKU0002,ALL,20
+PR0259,Weekly SKU Offer,Percentage off,16-Apr-2026,22-Apr-2026,SKU,,SKU0051,S04;S08;S09,20
+PR0260,Weekly SKU Offer,Percentage off,18-Apr-2026,24-Apr-2026,SKU,,SKU0102,S02;S03;S04;S07;S09;S10,20
+PR0261,Weekly SKU Offer,Percentage off,20-Apr-2026,03-May-2026,SKU,,SKU0069,S01;S03;S06;S07;S08;S09,20
+PR0262,Back to School,Percentage off,22-Apr-2026,06-May-2026,Category,School & Stationery,,ALL,12
+PR0263,Payday Deals,Percentage off,26-Apr-2026,30-Apr-2026,Category,Household & Cleaning,,ALL,10
+PR0264,Payday Deals,Percentage off,26-Apr-2026,30-Apr-2026,Category,Personal Care,,ALL,15
+PR0265,Weekly SKU Offer,Percentage off,03-May-2026,16-May-2026,SKU,,SKU0066,ALL,5
+PR0266,Weekly SKU Offer,Percentage off,09-May-2026,15-May-2026,SKU,,SKU0050,ALL,20
+PR0267,Weekly SKU Offer,Percentage off,10-May-2026,23-May-2026,SKU,,SKU0066,ALL,40
+PR0268,Weekly SKU Offer,Percentage off,11-May-2026,24-May-2026,SKU,,SKU0143,ALL,10
+PR0269,Weekly SKU Offer,Percentage off,12-May-2026,25-May-2026,SKU,,SKU0019,ALL,20
+PR0270,Weekly SKU Offer,Percentage off,13-May-2026,19-May-2026,SKU,,SKU0019,ALL,10
+PR0271,Weekly SKU Offer,Percentage off,17-May-2026,30-May-2026,SKU,,SKU0134,ALL,20
+PR0272,Weekly SKU Offer,Percentage off,20-May-2026,26-May-2026,SKU,,SKU0017,ALL,5
+PR0273,Payday Deals,Percentage off,27-May-2026,31-May-2026,Category,Personal Care,,ALL,5
+PR0274,Payday Deals,Percentage off,27-May-2026,31-May-2026,Category,Snacks & Confectionery,,ALL,10
+PR0275,Weekly SKU Offer,Percentage off,02-Jun-2026,15-Jun-2026,SKU,,SKU0161,ALL,20
+PR0276,Weekly SKU Offer,Percentage off,03-Jun-2026,16-Jun-2026,SKU,,SKU0069,ALL,30
+PR0277,Weekly SKU Offer,Percentage off,07-Jun-2026,13-Jun-2026,SKU,,SKU0022,S03;S05;S06;S10,30
+PR0278,Weekly SKU Offer,Percentage off,08-Jun-2026,14-Jun-2026,SKU,,SKU0012,S04;S07;S08;S09,10
+PR0279,Weekly SKU Offer,Percentage off,09-Jun-2026,15-Jun-2026,SKU,,SKU0161,S01;S04;S07;S09;S10,30
+PR0280,Weekly SKU Offer,Percentage off,10-Jun-2026,23-Jun-2026,SKU,,SKU0070,ALL,20
+PR0281,Weekly SKU Offer,Percentage off,13-Jun-2026,26-Jun-2026,SKU,,SKU0067,ALL,20
+PR0282,Weekly SKU Offer,Percentage off,17-Jun-2026,23-Jun-2026,SKU,,SKU0058,ALL,40
+PR0283,Weekly SKU Offer,Percentage off,19-Jun-2026,25-Jun-2026,SKU,,SKU0071,S02;S04;S05;S08;S09,10
+PR0284,Weekly SKU Offer,Percentage off,19-Jun-2026,25-Jun-2026,SKU,,SKU0006,ALL,40
+PR0285,Weekly SKU Offer,Percentage off,20-Jun-2026,03-Jul-2026,SKU,,SKU0099,ALL,20
+PR0286,Payday Deals,Percentage off,26-Jun-2026,30-Jun-2026,Category,Beverages,,ALL,15
+PR0287,Payday Deals,Percentage off,26-Jun-2026,30-Jun-2026,Category,Personal Care,,ALL,10
+PR0288,Weekly SKU Offer,Percentage off,07-Jul-2026,13-Jul-2026,SKU,,SKU0058,ALL,40
+PR0289,Weekly SKU Offer,Percentage off,10-Jul-2026,23-Jul-2026,SKU,,SKU0086,S01;S02;S04;S07,30
+PR0290,Weekly SKU Offer,Percentage off,11-Jul-2026,24-Jul-2026,SKU,,SKU0163,ALL,20
+PR0291,Weekly SKU Offer,Percentage off,12-Jul-2026,25-Jul-2026,SKU,,SKU0028,ALL,20
+PR0292,Weekly SKU Offer,Percentage off,15-Jul-2026,21-Jul-2026,SKU,,SKU0118,ALL,5
+PR0293,Weekly SKU Offer,Percentage off,17-Jul-2026,30-Jul-2026,SKU,,SKU0074,ALL,30
+PR0294,Weekly SKU Offer,Percentage off,17-Jul-2026,30-Jul-2026,SKU,,SKU0050,S03;S07;S09,10
+PR0295,Weekly SKU Offer,Percentage off,18-Jul-2026,24-Jul-2026,SKU,,SKU0157,S01;S04;S05;S08;S10,5
+PR0296,Weekly SKU Offer,Percentage off,19-Jul-2026,01-Aug-2026,SKU,,SKU0168,ALL,5
+PR0297,Weekly SKU Offer,Percentage off,19-Jul-2026,01-Aug-2026,SKU,,SKU0071,S02;S04;S06;S07;S09;S10,10
+PR0298,Weekly SKU Offer,Percentage off,19-Jul-2026,01-Aug-2026,SKU,,SKU0022,S01;S02;S03;S04;S05;S09,5
+PR0299,Payday Deals,Percentage off,27-Jul-2026,31-Jul-2026,Category,Personal Care,,ALL,10
+PR0300,Payday Deals,Percentage off,27-Jul-2026,31-Jul-2026,Category,Household & Cleaning,,ALL,5
+PR0301,Weekly SKU Offer,Percentage off,02-Aug-2026,15-Aug-2026,SKU,,SKU0105,S02;S08;S09,20
+PR0302,Weekly SKU Offer,Percentage off,09-Aug-2026,15-Aug-2026,SKU,,SKU0091,ALL,20
+PR0303,Weekly SKU Offer,Percentage off,12-Aug-2026,18-Aug-2026,SKU,,SKU0015,S03;S05;S08,30
+PR0304,Weekly SKU Offer,Percentage off,16-Aug-2026,22-Aug-2026,SKU,,SKU0122,ALL,30
+PR0305,Weekly SKU Offer,Percentage off,17-Aug-2026,30-Aug-2026,SKU,,SKU0008,ALL,40
+PR0306,Weekly SKU Offer,Percentage off,19-Aug-2026,25-Aug-2026,SKU,,SKU0021,ALL,20
+PR0307,Weekly SKU Offer,Percentage off,20-Aug-2026,02-Sep-2026,SKU,,SKU0058,ALL,5
+PR0308,Weekly SKU Offer,Percentage off,21-Aug-2026,27-Aug-2026,SKU,,SKU0106,ALL,30
+PR0309,Back to School,Percentage off,22-Aug-2026,05-Sep-2026,Category,School & Stationery,,ALL,12
+PR0310,Payday Deals,Percentage off,27-Aug-2026,31-Aug-2026,Category,Snacks & Confectionery,,ALL,15
+PR0311,Payday Deals,Percentage off,27-Aug-2026,31-Aug-2026,Category,Household & Cleaning,,ALL,10
+PR0312,Weekly SKU Offer,Percentage off,04-Sep-2026,10-Sep-2026,SKU,,SKU0019,S01;S02;S03;S04;S07,20
+PR0313,Weekly SKU Offer,Percentage off,08-Sep-2026,21-Sep-2026,SKU,,SKU0083,S02;S05;S06;S10,30
+PR0314,Weekly SKU Offer,Percentage off,10-Sep-2026,16-Sep-2026,SKU,,SKU0052,S02;S05;S08,20
+PR0315,Weekly SKU Offer,Percentage off,12-Sep-2026,18-Sep-2026,SKU,,SKU0154,S01;S02;S04;S05;S07;S08,10
+PR0316,Weekly SKU Offer,Percentage off,13-Sep-2026,19-Sep-2026,SKU,,SKU0019,S01;S04;S09,10
+PR0317,Weekly SKU Offer,Percentage off,13-Sep-2026,26-Sep-2026,SKU,,SKU0066,ALL,30
+PR0318,Weekly SKU Offer,Percentage off,18-Sep-2026,24-Sep-2026,SKU,,SKU0145,ALL,30
+PR0319,Weekly SKU Offer,Percentage off,20-Sep-2026,26-Sep-2026,SKU,,SKU0002,ALL,10
+PR0320,Weekly SKU Offer,Percentage off,20-Sep-2026,26-Sep-2026,SKU,,SKU0132,ALL,20
+PR0321,Payday Deals,Percentage off,26-Sep-2026,30-Sep-2026,Category,Beverages,,ALL,5
+PR0322,Payday Deals,Percentage off,26-Sep-2026,30-Sep-2026,Category,Food Staples,,ALL,10
