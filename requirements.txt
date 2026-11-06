@@ -1,0 +1,24 @@
+# Python 3.11 or newer is needed (pandas 3).
+# Install with: pip install -r requirements.txt
+
+# Core: data generation and cleaning
+pandas>=3.0,<4
+numpy>=2.4,<3
+
+# Analysis, plotting and statistical tests
+matplotlib>=3.10
+seaborn>=0.13
+scipy>=1.15
+statsmodels
+scikit-posthocs
+
+# Machine learning and forecasting
+scikit-learn
+
+# Notebooks
+jupyterlab
+ipykernel
+
+# Optional: only if you load data into PostgreSQL from Python
+# sqlalchemy>=2.0
+# psycopg2-binary>=2.9
