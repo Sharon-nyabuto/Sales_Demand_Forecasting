@@ -31,8 +31,8 @@ All raw files are stored unedited in `Data/`. Column definitions are in `data_di
 
 | File(s) | Description and source | Licence / terms |
 |---|---|---|
-| `branches.csv`, `products.csv`, `customers.csv`, `promos.csv`, `transactions.csv`, `receipt-lines.csv` |  Branches, products, customers, promotions, receipts and receipt lines. **Source:** Synthetic data generated with Claude (Anthropic) | No real or personal data; no third-party dataset used. |
+| `branches.csv`, `products.csv`, `customers.csv`, `promos.csv`, `transactions.csv`, `receipt-lines.csv` |  Branches, products, customers, promotions, receipts and receipt lines. **Source:** Synthetic data generated with Claude (Anthropic) It can be regenerated with `generate_data.py`| No real or personal data; no third-party dataset used. |
 | `inflation_data_knbs.csv` | Monthly inflation rates. **Source:** KNBS, via the [Central Bank of Kenya inflation table](https://www.centralbank.go.ke/inflation-rates/). Retrieved 22 Oct 2026.  | No CPI-specific licence found. Cite KNBS; check its terms of use. |
-| `kenya_public_holidays.csv` | **Contents:** Kenyan public holiday dates, Jan 2024 to Sep 2026 (32 holidays). **Source:** [Public Holidays Act (Cap. 110)](https://new.kenyalaw.org/akn/ke/act/1912/21); Kenya Gazette notices for varying and one-off holidays. | Official Kenyan legal sources; Cite the Act and the Gazette notices. |
+| `holidays_kenya.csv` | **Contents:** Kenyan public holiday dates, Jan 2024 to Sep 2026 (32 holidays). **Source:** [Public Holidays Act (Cap. 110)](https://new.kenyalaw.org/akn/ke/act/1912/21); Kenya Gazette notices for varying and one-off holidays. | Official Kenyan legal sources; Cite the Act and the Gazette notices. |
 
 
