@@ -135,13 +135,13 @@ order by table_name, ordinal_position;
 
 -- Confirming  data loaded fully:
 select 'sales' as table_name, count(*) as row_count from sales
-union all select 'receipt_lines', count(*) from receipt_lines
-union all select 'transactions',  count(*) from transactions
-union all select 'branches',      count(*) from branches
-union all select 'products',      count(*) from products
-union all select 'customers',     count(*) from customers
-union all select 'inflation',     count(*) from inflation
-union all select 'holidays',      count(*) from holidays;
+union all select 'receipt_lines',count(*) from receipt_lines
+union all select 'transactions', count(*) from transactions
+union all select 'branches', count(*) from branches
+union all select 'products', count(*) from products
+union all select 'customers', count(*) from customers
+union all select 'inflation', count(*) from inflation
+union all select 'holidays', count(*) from holidays;
 
 /*================================================================================================================================
 BUSINESS QUESTIONS
