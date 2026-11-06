@@ -65,6 +65,7 @@ Selling price minus cost is the gross margin.
 | payment_method | Cash, M-Pesa or Card |
 | payment_reference | M-Pesa confirmation code (M-Pesa payments only) |
 | original_transaction_id | Only for a return receipt, the receipt number of the earlier sale being refunded.|
+
 ## receipt-lines.csv
 
 | Column | Description |
@@ -86,7 +87,7 @@ Selling price minus cost is the gross margin.
 | inflation_12m_pct | Year-on-year inflation: how much higher prices are than in the same month a year earlier |
 
 
-## kenya_public_holidays.csv
+## holidays_kenya.csv
 
 | Column | Description |
 |---|---|
