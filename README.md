@@ -77,7 +77,7 @@ The original plan was to measure accuracy with a MAPE of 15% or less. This was c
 ├── problem_framing.md
 ├── requirements.txt           # pip 
 ├── Scripts/
-│   └── generate_data.py       # regenerates an equivalent synthetic raw dataset             # real public data used
+│   └── generate_data.py       # regenerates an equivalent synthetic raw dataset
 ├── Data/  
 │   ├── inflation_data_knbs.csv
 │   └── holidays_kenya.csv                
