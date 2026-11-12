@@ -9,7 +9,7 @@ The goal is to provide better information for stock replenishment and inventory 
 
 ## How success will be measured
 
-**Model Success:** The model will aim for a Mean Absolute Percentage Error (MAPE) of 15% or less on unseen test data. Mean Absolute Error (MAE) will also be reported. Forecast accuracy will be compared with and without promotion and inflation data to assess whether these factors improve predictions.
+**Model Success:**  The model will aim for a Weighted Absolute Percentage Error (WAPE) of 15% or less on unseen test data, replacing the Mean Absolute Percentage Error (MAPE) in the original plan because WAPE is less sensitive to zero and low-sales periods. Mean Absolute Error (MAE) will also be reported. Forecast accuracy will be compared against a simple previous-period baseline and with and without payday, promotion, holiday and inflation features to assess their contribution to predictions.
 
 **Business Outcomes:** The forecasts should help stores plan stock replenishment more accurately, anticipate demand during busy periods and promotions, and allocate inventory more effectively. The impact will be assessed by tracking changes in stockout rates, excess inventory, and stock wastage.
 
@@ -31,7 +31,7 @@ All raw files are stored unedited in `Data/`. Column definitions are in `data_di
 
 | File(s) | Description and source | Licence / terms |
 |---|---|---|
-| `branches.csv`, `products.csv`, `customers.csv`, `promos.csv`, `transactions.csv`, `receipt-lines.csv` |  Branches, products, customers, promotions, receipts and receipt lines. **Source:** Synthetic data generated with Claude (Anthropic) It can be regenerated with `generate_data.py`| No real or personal data; no third-party dataset used. |
+| `branches.csv`, `products.csv`, `customers.csv`, `promos.csv`, `transactions.csv`, `receipt-lines.csv` |  Branches, products, customers, promotions, receipts and receipt lines. **Source:** Synthetic data generated with Claude (Anthropic) It can be regenerated with `generate_data.py`| No personal data; no third-party dataset used. |
 | `inflation_data_knbs.csv` | Monthly inflation rates. **Source:** KNBS, via the [Central Bank of Kenya inflation table](https://www.centralbank.go.ke/inflation-rates/). Retrieved 22 Oct 2026.  | No CPI-specific licence found. Cite KNBS; check its terms of use. |
 | `holidays_kenya.csv` | **Contents:** Kenyan public holiday dates, Jan 2024 to Sep 2026 (32 holidays). **Source:** [Public Holidays Act (Cap. 110)](https://new.kenyalaw.org/akn/ke/act/1912/21); Kenya Gazette notices for varying and one-off holidays. | Official Kenyan legal sources; Cite the Act and the Gazette notices. |
 
