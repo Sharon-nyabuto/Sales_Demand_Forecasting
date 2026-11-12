@@ -3,3 +3,5 @@ forecast/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+# Power BI files
+*.pbix
