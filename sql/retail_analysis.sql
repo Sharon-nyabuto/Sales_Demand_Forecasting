@@ -1,7 +1,7 @@
  /*RETAIL SALES ANALYSIS
-==========================================================================================================================
-CREATING TABLES
-===========================================================================================================================*/               
+=====================================================CREATING TABLES=====================================================================
+*/   
+            
 create schema retail_forecasting;
 set search_path to retail_forecasting;
 -- Preparing the tables
@@ -121,12 +121,10 @@ create table sales (
     foreign key (promo_id) references promotions(promo_id),
     foreign key (store_id) references branches(store_id));
 
--- Import the cleaned CSV files into their respective PostgreSQL tables.
+/*Import the cleaned CSV files into their respective PostgreSQL tables.
 -- Files are located in Data/processed_data/.
-/*=================================================================================================================================
-DATA CHECKS
-===================================================================================================================================*/
---Schema check: Tables and column with its data type
+--==========================================================================DATA CHECKS====================================================================
+Schema check: Tables and column with its data type*/
 
 select table_name, column_name, data_type
 from information_schema.columns
@@ -143,9 +141,9 @@ union all select 'customers', count(*) from customers
 union all select 'inflation', count(*) from inflation
 union all select 'holidays', count(*) from holidays;
 
-/*================================================================================================================================
-BUSINESS QUESTIONS
-===================================================================================================================================
+/*======================================================================BUSINESS QUESTIONS======================================================================
+
+
    Q1. How do revenue, units sold and receipt volumes vary across stores and product categories?
       
    Q2. How are promotions and discount levels associated with sales, and what happens to sales after promotions end? 
@@ -153,9 +151,7 @@ BUSINESS QUESTIONS
        
    Q3. What do customer purchasing patterns, cohorts and RFM segments reveal about customer activity and value?
        
- ================================================================================================================================
-  1. STORE AND PRODUCT PERFORMANCE
-  ================================================================================================================================*/
+ ================================================================1. STORE AND PRODUCT PERFORMANCE================================================================*/
 
 --1.1. Sales performance by store (Revenue, Units and Transactions)
 select b.store_id, b.store_name, b.store_positioning, b.opening_date,
@@ -312,9 +308,7 @@ from ranked
 where top_rank <= 5 or bottom_rank <= 5
 order by store_name, units_sold asc;
 
-  /*==============================================================================================================================
-  2. PROMOTIONS, INFLATION AND CALENDAR EFFECTS
-  ================================================================================================================================*/
+  --===================================================================2. PROMOTIONS, INFLATION AND CALENDAR EFFECTS===========================================================
 --2.1. Sales by discount level
 select discount_level,
        count(distinct transaction_id) as transaction_count,
@@ -373,9 +367,7 @@ where s.quantity > 0
 group by calendar_period
 order by calendar_period;
 
- /*==============================================================================================================================
-  3. CUSTOMERS
-  ================================================================================================================================*/
+ /*=================================================================3. CUSTOMERS=============================================================*/
 -- 3.1. Customer distribution and sales contribution by county
 select c.county,
     count(distinct c.customer_id) as registered_customers,
@@ -499,7 +491,7 @@ group by c.month
 order by c.month;
 
 --====================================================================VIEWS=========================================================================
--- 1. RFM scores and segments  |  from section 3 (RFM analysis)
+-- 1. RFM scores and segments ---> from section 3 (RFM analysis)
 create or replace view v_customer_rfm as
 with customer_rfm as (
     select customer_id,
@@ -507,28 +499,27 @@ with customer_rfm as (
            count(transaction_id) as frequency,
            sum(basket_total_kes) as monetary_value
     from transactions
-    where customer_id is not null
+    where customer_id is not null and original_transaction_id is null
     group by customer_id),
 scored as (
     select customer_id, recency_days, frequency, monetary_value,
-           ntile(5) over (order by recency_days desc) as r_score,
-           ntile(5) over (order by frequency) as f_score,
-           ntile(5) over (order by monetary_value) as m_score
+           ntile(5) over (order by recency_days desc, customer_id) as r_score,
+           ntile(5) over (order by frequency, customer_id) as f_score,
+           ntile(5) over (order by monetary_value, customer_id) as m_score
     from customer_rfm)
 select s.customer_id,c.county,c.registration_store_id, s.recency_days, s.frequency, s.monetary_value,
-       s.r_score, s.f_score, s.m_score,
-       case
-           when s.r_score >= 4 and s.f_score >= 4 and s.m_score >= 4 then 'Premium_customers'
-           when s.f_score >= 4 then 'Loyal Customers'
-           when s.m_score = 5 then 'Big Spenders'
-           when s.r_score <= 2 then 'At Risk'
-           else 'Other Customers'
-       end as customer_segment      
+       s.r_score, s.f_score, s.m_score, case
+										    when s.r_score >= 4 and s.f_score >= 4 and s.m_score >= 4 then 'Premium Customers'
+										    when s.r_score <= 2 and s.f_score >= 3 then 'At Risk'
+										    when s.f_score >= 4 then 'Loyal Customers'
+										    when s.r_score <= 2 then 'Lost'
+										    else 'Other Customers'
+										end as customer_segment    
 from scored s
 left join customers c on c.customer_id = s.customer_id;
 
 -- 2. Cohort retention from section 3 (customer cohorts)
-create or replace view v_cohort_retention as
+create or replace view v_cohort_retention as 
 with first_purchase as (
     select customer_id,date_trunc('month', min(transaction_date))::date as cohort_month       
     from transactions
@@ -541,7 +532,7 @@ cohort_sizes as (
 activity as (
     select distinct customer_id,date_trunc('month', transaction_date)::date as active_month         
     from transactions
-    where customer_id is not null)
+    where customer_id is not null and original_transaction_id is null)
 select f.cohort_month,
        (extract(year  from age(a.active_month, f.cohort_month)) * 12
       + extract(month from age(a.active_month, f.cohort_month)))::int as months_since_first,
@@ -560,7 +551,7 @@ create or replace view v_monthly_retention as
 with monthly_customers as (
     select distinct date_trunc('month', transaction_date)::date as month, customer_id        
     from transactions
-    where customer_id is not null),
+    where customer_id is not null and original_transaction_id is null),
 active as (
     select month, count(*) as active_customers
     from monthly_customers
@@ -581,13 +572,17 @@ from active a
 left join returning_c r 
 on r.month = a.month;
 
+create or replace view v_returns as
+select rl.line_id, rl.product_id, p.product_name, p.category, t.store_id, t.transaction_date,
+       abs(rl.quantity) as units_returned,
+       abs(rl.quantity * rl.unit_price_kes * (1 - coalesce(rl.discount_pct, 0) / 100)) as returned_value_kes
+from receipt_lines rl
+join transactions t on t.transaction_id = rl.transaction_id
+join products p on p.product_id = rl.product_id
+where rl.quantity < 0;
+
 --Querying to confirm views have been created successfully
 select table_name from information_schema.views where table_schema = 'retail_forecasting';
-
-
-
-
-
 
 
 
